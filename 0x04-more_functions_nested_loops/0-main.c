@@ -8,6 +8,6 @@
  */
 int main(void)
 {
-	print_most_numbers();
+	moret_numbers();
 	return (0);
 }
