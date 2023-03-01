@@ -9,5 +9,17 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
+	int countD = 0, countS = 0;
 
+	while (*(dest + countD) =! '\0')
+	{
+		countD++;
+	}
+
+	for (countD; countS <= n; countS++)
+	{
+		*(dest + countD) = *(src + countS);
+		countD++;
+	}
+	return (dest);
 }
