@@ -19,6 +19,8 @@ char *_strncat(char *dest, char *src, int n)
 	for (countD; countS < n; countS++)
 	{
 		*(dest + countD) = *(src + countS);
+		if (*(src + countS) == '\0')
+			break;
 		countD++;
 	}
 	return (dest);
