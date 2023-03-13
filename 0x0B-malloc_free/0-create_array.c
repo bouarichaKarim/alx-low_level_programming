@@ -6,7 +6,7 @@
  * it with a specific char.
  *
  * @size: the size of the array.
- * @char: the character to initialiae the array.
+ * @c: the character to initialiae the array.
  *
  * Return: null if size=0 , pointer of null if it fails.
  */
