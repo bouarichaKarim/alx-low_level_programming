@@ -12,12 +12,12 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	*char *strout;
+	char *strout;
 	unsigned int i, j, k, limit;
 
-	if (s1 == null)
+	if (s1 == NULL)
 		s1 = "";
-	if (s2 == null)
+	if (s2 == NULL)
 		s2 = "";
 
 	for (i = 0; s1[i] != '\0'; i++)
@@ -27,10 +27,10 @@ char *str_concat(char *s1, char *s2)
 	;
 
 	strout = malloc(sizeof(char) * (i + j + 1));
-	if (strout == null)
+	if (strout == NULL)
 	{
 		free(strout);
-		return (null);
+		return (NULL);
 	}
 
 	limit = i;
