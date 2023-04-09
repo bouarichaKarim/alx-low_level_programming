@@ -9,7 +9,9 @@
 
 unsigned int binary_to_int(const char *b)
 {
-	unsigned int result = 0;
+	unsigned int result;
+
+	result = 0;
 
 	if (b == NULL)
 		return (0);
