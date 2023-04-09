@@ -7,13 +7,13 @@
  * Return: unsigned int.
  */
 
-unsigned int binary_to_int(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int result;
 
 	result = 0;
 
-	if (b == NULL)
+	if (!b)
 		return (0);
 
 	while (*b != '\0')
