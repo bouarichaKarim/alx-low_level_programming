@@ -10,7 +10,7 @@
 int get_bit(unsigned long int n, unsigned int index)
 {
 	int bit_per_byte = 8;
-	unsigned int  = sizeof(n) * bit_per_byte;
+	unsigned int bits_in_long  = sizeof(n) * bit_per_byte;
 
 	if (index >= bits_in_long)
 		return (-1);
